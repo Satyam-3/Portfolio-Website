@@ -73,9 +73,9 @@ const Portfolio = () => {
   return (
     <div
       name="portfolio"
-      className=" pt-25 bg-gradient-to-b from-black to-gray-800 w-full text-white md:h-fit py-20"
+      className="w-full h-fit bg-gradient-to-b from-black via-black to-gray-800 text-white pt-20"
     >
-      <div className="max-w-screen-lg p-4 mx-auto flex flex-col justify-center w-full h-full">
+      <div className="flex flex-col p-4 justify-center max-w-screen-lg mx-auto h-full">
         <div className="pb-8">
           <p className="text-4xl font-bold inline border-b-4 border-gray-500 text-orange-100 py-2">
             Portfolio
@@ -83,12 +83,12 @@ const Portfolio = () => {
           <p className="py-10 font-medium text-xl text-slate-300">Check out some of my work right here</p>
         </div>
 
-        <div className="grid sm:grid-cols-2 md:grid-cols-2 gap-8 px-12 sm:px-0">
+        <div className=" flex justify-center items-center grid sm:grid-cols-2 md:grid-cols-2 gap-8 px-12 sm:px-0">
           {portfolios.map(({ id, src, href, link, desc, title }) => (
            
             <div key={id} className="px-4 py-1 hover:scale-105 duration-500 shadow-md shadow-gray-600 rounded-lg ">
 
-              <p className="font-semibold font-colorduration-200 hover:scale-105 text-teal-300 text-center text-3xl">{title}</p>
+              <p className=" font-semibold font-colorduration-200 hover:scale-105 text-teal-300 text-center text-3xl">{title}</p>
 
               <p className="py-5 text-gray-400 font-medium content-center">{desc}</p>
               
