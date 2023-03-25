@@ -61,8 +61,16 @@ const Portfolio = () => {
             title: "Inside Out",
             desc: "This is my first React App This is an app called inside Out which is basically an emotion interpreter. I am often confused with the meanings and I keep going to emojipedia. Wanted to make something like for my use with different sets. To build this project i have used Here,ReactJs. Here, is the link to my first react app."
         },
+        
         {
           id: 7,
+          href: "https://snakemaniaaa.netlify.app/",
+          link: "https://github.com/Satyam-3/SnakeGame",
+          title: "Snake Game",
+          desc: "It is a web development project, in this i have used HTML, CSS and JavaScript, In this game you can compete with yourself as it shows your Hi Score, It shows your current score as well as your HI score."
+        },
+        {
+          id: 8,
           href: "https://satyamportfolio-sj.netlify.app/",
           link: "https://github.com/Satyam-3/Main-Portfolio",
           title: "Portfolio Website",
